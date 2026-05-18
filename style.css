@@ -21,6 +21,72 @@ h1 {
     letter-spacing: 2px;
 }
 
+#character-panel {
+    width: 90%;
+    max-width: 900px;
+    background-color: #ffffff;
+    border: 3px solid #81c784;
+    border-radius: 16px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+}
+
+#character-panel h2 {
+    margin-top: 0;
+    color: #2e7d32;
+}
+
+#characters {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 16px;
+}
+
+.character-card {
+    width: 220px;
+    padding: 16px;
+    border: 2px solid #c8e6c9;
+    border-radius: 14px;
+    background: #f1f8e9;
+    color: #1b5e20;
+    cursor: pointer;
+    text-align: left;
+    transition: transform 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+
+.character-card:hover,
+.character-card.selected {
+    border-color: #388e3c;
+    background-color: #e8f5e9;
+    transform: translateY(-2px);
+}
+
+.character-card strong {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 1.05em;
+}
+
+.character-card small {
+    display: block;
+    color: #33691e;
+}
+
+.character-avatar {
+    display: inline-block;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+#character-description {
+    font-size: 1em;
+    color: #2e7d32;
+    margin: 0;
+}
+
 /* Área do Jogo */
 #game-container {
     width: 90%;
