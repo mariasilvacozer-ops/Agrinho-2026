@@ -1,0 +1,59 @@
+/* Estilização Geral */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e8f5e9; /* Verde bem claro, suave */
+    color: #1b5e20; /* Verde escuro para textos */
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Área do Jogo */
+#game-container {
+    width: 90%;
+    max-width: 800px;
+    height: 500px;
+    background-color: #ffffff;
+    border: 8px solid #2e7d32; /* Borda robusta de fazenda */
+    border-radius: 15px; /* Bordas arredondadas modernas */
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+/* Estilo para botões ou elementos de interface */
+.btn-info {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-info:hover {
+    background-color: #388e3c;
+}
+
+footer {
+    padding: 10px;
+    font-style: italic;
+    color: #2e7d32;
+}
